@@ -4,11 +4,17 @@ export const config: ScullyConfig = {
   projectName: 'app',
   outDir: './dist/static',
   routes: {
-    '/content/:id': {
+    '/hospitals/:id': {
       type: 'contentFolder',
       id: {
-        folder: './content'
+        folder: './content/hospitals'
       }
     },
+    '/hurts/:id': {
+      type: 'contentFolder',
+      id: {
+        folder: './content/hurts'
+      }
+    }
   }
 };

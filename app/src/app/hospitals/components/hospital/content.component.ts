@@ -1,8 +1,7 @@
 import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 import {Observable} from 'rxjs';
 import {ScullyRoute, ScullyRoutesService} from '@scullyio/ng-lib';
-
-declare var ng: any;
+import {map} from 'rxjs/operators';
 
 @Component({
   selector: 'bh-content',
@@ -13,7 +12,7 @@ declare var ng: any;
 
 })
 export class ContentComponent implements OnInit {
-  links$: Observable<ScullyRoute[]> = this.scully.available$;
+  links$: Observable<ScullyRoute[]> = this.scully.available$.pipe(map(links => links.filter(l => l.route.startsWith('/hospitals'))));
 
   constructor(private scully: ScullyRoutesService) {}
 
