@@ -4,16 +4,16 @@ import { PageComponent } from './components/page/page.component';
 
 const routes: Routes = [
   {
-    path: 'about', 
+    path: 'about',
     component: PageComponent
   },
-  { 
-    path: 'hospitals', 
-    loadChildren: () => import('./hospitals/content.module').then(m => m.ContentModule) 
+  {
+    path: 'hospitals',
+    loadChildren: () => import('./hospitals/content.module').then(m => m.ContentModule)
   },
-  { 
-    path: 'hurts', 
-    loadChildren: () => import('./hurts/hurts.module').then(m => m.HurtsModule) 
+  {
+    path: 'hurts',
+    loadChildren: () => import('./hurts/hurts.module').then(m => m.HurtsModule)
   }
 ];
 
