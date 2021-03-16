@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ace38133-9161-47be-bd85-9c4a4896a352" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/src/app/hospitals/components/hospital/content.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/hospitals/components/hospital/content.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/app/hurts/components/hurts/hurts.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/app/hurts/components/hurts/hurts.component.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1oYVjiOFPlCLwV19prgj7iQCCcj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/app/node_modules/typescript/lib" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ace38133-9161-47be-bd85-9c4a4896a352" name="Default Changelist" comment="" />
+      <created>1613463653386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613463653386</updated>
+      <workItem from="1613463654951" duration="7169000" />
+      <workItem from="1615893549173" duration="336000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/app/scully/plugins/plugin.js.map" />
+        <option value="$PROJECT_DIR$/app/scully/plugins/plugin.js" />
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="469" y="235" width="598" height="490" key="find.popup" timestamp="1615893858308">
+      <screen x="0" y="0" width="1536" height="960" />
+    </state>
+    <state x="469" y="235" width="598" height="490" key="find.popup/0.0.1536.960@0.0.1536.960" timestamp="1615893858308" />
+  </component>
+</project>
